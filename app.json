@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "WeatherApp",
+    "slug": "WeatherApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#3a3846"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "lt.gpakalniskis.weatherapp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "lt.gpakalniskis.weatherapp",
+      "versionCode": 1
+    },
+    "androidNavigationBar": {
+      "visible": "immersive"
+    },
+    "description": "",
+    "sdkVersion": "38.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  }
+}
